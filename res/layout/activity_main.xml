@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" 
+    >
+ 
+     
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="uno"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:id="@+id/button1"
+        ></Button>   
+        
+        
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="dos"
+        android:textStyle="bold"
+        android:layout_gravity="right"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/button2"
+        ></Button>
+    
+      <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="tres"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_gravity="left"
+        android:layout_marginTop="50dp"
+        android:id="@+id/button3"
+        ></Button>
+        
+        
+    <Button 
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="cuatro"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:id="@+id/button4"
+        ></Button>
+    
+    
+     <Button 
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="End"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:id="@+id/buttonEnd"
+        ></Button>
+      
+    
+</LinearLayout>
+
+
+ 

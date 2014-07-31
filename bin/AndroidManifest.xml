@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.musical"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_image"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="com.example.musical.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.example.musical.myMenu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.musical.CLEARSCREEN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           
+         <activity
+            android:name="com.example.musical.Buttons"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.musical.BUTTONS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name="com.example.musical.flashingButton"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.musical.FLASHINGBUTTON" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name="com.example.musical.flashingButton2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.musical.FLASHINGBUTTON2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name="com.example.musical.flashingButton3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.musical.FLASHINGBUTTON3" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           
+          <activity
+            android:name="com.example.musical.flashingButton4"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.musical.FLASHINGBUTTON4" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           
+         <activity
+            android:name="com.example.musical.text"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.musical.TEXT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          
+          
+    </application>
+
+</manifest>
